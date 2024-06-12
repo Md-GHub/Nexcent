@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 0.5px 4px 0.2px #f5f7fa;
+    font-size: 21px;
+    line-height: 24px;
+}
+.menu{
+    display: flex;
+    font-size: 19px;
+}
+
+.menu ul{
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 36px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #4D4D4D;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: #2a2828;
+}
+.buttons button{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(9, 178, 9);
+    width: 65px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 0.5px 1px 0px #595959;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: rgb(9, 178, 9);
+    margin-right: 13px;
+}
+
+p{
+    font-size:16px; 
+    color: grey;
+    margin: 5px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(245, 241, 241);
+    padding: 60px 180px 10px 180px;
+}
+.register button{
+    background-color: rgb(9, 178, 9);
+    color: white;
+    border: none;
+    width: 120px;
+    padding:14px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.point{
+    
+    border: none;
+    border-radius: 50%;
+    background-color:rgba(9, 178, 9, 0.613);
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    transition: 0.4s;
+}
+.point:hover{
+    background-color:rgb(9, 178, 9);
+    border: 0.5px solid rgb(9, 178, 9);
+}
+.pointer{
+    grid-column: span 4;
+    display:flex;
+    justify-content: center;
+}
+.clients{
+    text-align: center;
+    padding: 25px;
+}
+.clientlogo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-top: 8px;
+}
+.clientlogo img{
+    width: 35px;
+    height: 35px;
+}
+
+.community{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+}
+.community img{
+    width: 35px;
+    height: 35px;
+}
+.c1, .c2, .c3{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 1.4px 0px #595959;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 0;
+    text-align: start;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 13px;
+    padding: 20px;
+}
+.description{
+    margin-top: 40px;
+}
+.about .description button{
+    margin-top: 24px;
+    width: 120px;
+    padding:14px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(9, 178, 9);
+    color: white;
+    font-size: 15px;
+}
+.users{
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    background-color: rgb(245, 241, 241);
+}
+
+.g1,.g2,.g3,.g4{
+    display: flex;
+    gap: 14px;
+    padding: 20px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.design{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.description2{
+
+    width: 592px;
+    margin-top: 50px;
+}
+.description2 button{
+    margin-top: 24px;
+    width: 120px;
+    padding:14px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(9, 178, 9);
+    color: white;
+    font-size: 15px;
+}
+
+
+/*
+footer 
+*/
